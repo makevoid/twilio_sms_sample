@@ -11,7 +11,7 @@ class SMS
 
   def send_sms(number, message)
     message = @client.account.messages.create(
-      from: @from,
+      from: @@from,
       to: number,
       body: message,
     )

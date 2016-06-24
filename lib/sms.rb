@@ -5,10 +5,10 @@ class SMS
     @client = Twilio::REST::Client.new TWILIO_SID, TWILIO_TOKEN
   end
 
-  def deliver(number, message)
+  def deliver(to:, message:)
     message = @client.account.messages.create(
       from: @@from,
-      to: number,
+      to:   to,
       body: message,
     )
     puts "An SMS was sent to #{message.to[0...-4] + "****"}"

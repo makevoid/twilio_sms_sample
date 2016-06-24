@@ -1,9 +1,9 @@
 require 'twilio-ruby'
 
-keys_str = File.read File.expand_path "~/.twilio_keys"
-keys_str.chomp!
+keys = File.read File.expand_path "~/.twilio_keys"
+keys.chomp!
 
-TWILIO_NUMBER = "+44143223****"
+TWILIO_NUMBER = "+4414322****"
 TWILIO_SID, TWILIO_TOKEN = keys.split "|"
 
 

@@ -52,8 +52,10 @@ or you can setup a Gemfile if you like.
     ruby twilio_sms.rb
 
 
+Note about costs:
 
+(at the moment the cost of a SMS with Twilio is 4 USD cents for UK and 2 USD cents for US)
 
-enjoy
+enjoy!
 
 @makevoid

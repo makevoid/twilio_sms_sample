@@ -6,7 +6,7 @@ class SMS
   end
 
   def deliver(to:, message:)
-    message = @client.account.messages.create(
+    message = @client.messages.create(
       from: @@from,
       to:   to,
       body: message,

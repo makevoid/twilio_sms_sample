@@ -1,6 +1,8 @@
-# Try Twilio SMS
+# Twilio SMS Sample
 
-Ruby class that sends an SMS message with twilio
+Ruby class that sends an SMS message with twilio - sample code 
+
+#microlib / #microgem / #microrb
 
 
 ### Usage
